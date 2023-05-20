@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>api loading</title>
+    <style>
+        #post{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #post div{
+            background-color: cadetblue;
+            font-size: black;
+            width: 33%;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        #user_list li{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<button onclick="load()"> button</button>
+<button onclick="loadUser()"> Load User</button>
+<button onclick="loadUser2()"> Load User two</button>
+<body>
+    <main>
+        <div id="user">
+            <ul id="user_list">
+               
+            </ul>
+        </div>
+       <section id="post">
+        
+       </section>
+    </main>
+    <!-- <script src="./fetching.js"></script> -->
+    <script src="./app.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
